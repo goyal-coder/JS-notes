@@ -54,6 +54,25 @@ JS can be added inside html doc using script tag in head or in the end of the bo
 | let | Yes | No | Yes | No | No |
 | const | Yes | No | No | No | No |
 
+# Now the imp things about variables in js
+
+1. var have function scope. and other two have bloack scope.
+2. when you do this:
+   console.log(a); // ✅ Undefined (not an error)
+var a = 5;
+but when you do this:
+console.log(b); // ❌ ReferenceError (TDZ)
+let b = 10;
+it enters a temporal dead zone.
+3. Closures: A closure is when an inner function remembers variables from its outer function, even after the outer function has executed.
+4. shadowing: Below example shows shadowing in JS.
+   let x = 10;
+{
+    let x = 20; // This "shadows" the outer x
+    console.log(x); // 20 (inner variable)
+}
+console.log(x); // 10 (outer variable)
+
 # JS operators
 
 - Arithmetic Operators
