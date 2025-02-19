@@ -136,6 +136,12 @@ console.log(x); // 10 (outer variable)
 | instanceof | Returns true if an object is an instance of an object type |
 - Ternary Operators
 
+# Operator precedence
+1. ()
+2. **
+3. *,/,%
+4. +,-
+
 # Data types
 
 String
