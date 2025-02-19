@@ -145,6 +145,10 @@ console.log(x); // 10 (outer variable)
 # Taking input from user
 1. Noob do this: using prompt
 2. Using HTML input and then getting the value the user entered in the textbox. (COOL..Isnt it?)
+
+# Typecasting
+basically changing the type of data. like to number or string or maybe boolean.
+- When you try to convert string having a-z to number it will return Nan(not a number) it dont return any error. which is a good thing.
    
 # Data types
 
