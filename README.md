@@ -142,6 +142,10 @@ console.log(x); // 10 (outer variable)
 3. *,/,%
 4. +,-
 
+# Taking input from user
+1. Noob do this: using prompt
+2. Using HTML input and then getting the value the user entered in the textbox. (COOL..Isnt it?)
+   
 # Data types
 
 String
